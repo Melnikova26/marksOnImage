@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
     const btns = document.querySelectorAll('.main__btn');
-    console.log(window.innerHeight, window.innerWidth);
     document.addEventListener('click', function(e){
         const targetElement = e.target.closest('.main__btn') || e.target.closest('.main');
         if(targetElement.classList.contains('main__btn')){
