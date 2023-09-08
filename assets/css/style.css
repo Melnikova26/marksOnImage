@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: url("./../img/banner.png") center top/cover no-repeat;
+  position: relative;
+}
+.main__blue, .main__green {
+  position: absolute;
+}
+.main__blue .main__minus {
+  background-color: #3877EE;
+}
+.main__green .main__minus {
+  background-color: #6ABF4B;
+}
+.main__btn {
+  width: fit-content;
+  height: 2.5625rem;
+}
+.main__plus {
+  width: 2.5625rem;
+  height: 2.5625rem;
+}
+.main__plus svg {
+  width: 100%;
+  height: 100%;
+}
+.main__minus {
+  width: fit-content;
+  height: 2.5625rem;
+  padding: 0.69rem 0.94rem;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.94rem;
+  color: #fff;
+  font-size: 0.875rem;
+}
+.main__minus .main__text {
+  white-space: nowrap;
+}
+.main__minus svg {
+  width: 30%;
+  height: 100%;
+}
+.main__669 {
+  top: 25.1%;
+  left: 24.2%;
+}
+.main__678 {
+  top: 43.64%;
+  left: 30.78%;
+}
+.main__670 {
+  top: 65.1%;
+  left: 21.22%;
+}
+.main__684 {
+  top: 18.83%;
+  right: 22.5%;
+}
+.main__679 {
+  top: 38.4%;
+  right: 34.79%;
+}
+.main__683 {
+  top: 42.985%;
+  right: 19.65%;
+}
+.main__682 {
+  top: 57.2%;
+  right: 39.3%;
+}
+.main__681 {
+  top: 62.94%;
+  right: 24%;
+}
+.main__680 {
+  top: 77.16%;
+  right: 30.66%;
+}
+.main__685 {
+  top: 69.01%;
+  right: 5.97%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 1755px) {
+  .main__670 {
+    left: 18.22%;
+  }
+}
+@media (max-width: 1600px) {
+  .main__670 {
+    left: 15%;
+  }
+  .main__684 {
+    top: 17.83%;
+    right: 17.5%;
+  }
+}
+@media (max-width: 1445px) {
+  .main__670 {
+    left: 8.5%;
+  }
+  .main__684 {
+    right: 14.5%;
+  }
+  .main__669 {
+    left: 17.2%;
+  }
+  .main__678 {
+    left: 27.78%;
+  }
+  .main__684 {
+    right: 15.5%;
+  }
+  .main__679 {
+    right: 30.79%;
+  }
+  .main__683 {
+    right: 12.65%;
+  }
+  .main__682 {
+    right: 44.3%;
+  }
+  .main__681 {
+    right: 17%;
+  }
+  .main__680 {
+    right: 27.66%;
+  }
+  .main__685 {
+    right: 0%;
+  }
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/banner.png) 58% top/cover no-repeat;
+    position: relative;
+  }
+}
+@media (max-width: 1325px) {
+  .main__670 {
+    left: 4%;
+  }
+}
+@media ((min-width: 1536px) and (max-width: 1537px) and (min-height: 707px) and (max-height: 708px)) {
+  .main__669 {
+    top: 32.1%;
+    left: 24.2%;
+  }
+  .main__678 {
+    top: 53.64%;
+    left: 30.78%;
+  }
+  .main__670 {
+    top: 75.1%;
+    left: 21.22%;
+  }
+  .main__684 {
+    top: 23.83%;
+    right: 22.5%;
+  }
+  .main__679 {
+    top: 48.4%;
+    right: 34.79%;
+  }
+  .main__683 {
+    top: 52.985%;
+    right: 19.65%;
+  }
+  .main__682 {
+    top: 67.2%;
+    right: 39.3%;
+  }
+  .main__681 {
+    top: 72.94%;
+    right: 24%;
+  }
+  .main__680 {
+    top: 91.16%;
+    right: 30.66%;
+  }
+  .main__685 {
+    top: 83.01%;
+    right: 5.97%;
+  }
+}
